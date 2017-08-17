@@ -39,7 +39,7 @@ var HeroSearchComponent = (function () {
             : Observable_1.Observable.of([]); })
             .catch(function (error) {
             // TODO: add real error handling
-            console.log(error);
+            log.info(error);
             return Observable_1.Observable.of([]);
         });
     };
